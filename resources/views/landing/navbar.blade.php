@@ -18,8 +18,9 @@
     
   </nav>
 
-  <div class="h-screen bg-black flex items-center bg-cover bg-[url('{{asset("/asset/hero.png")}}')]">
-    <div class="mx-16">
+  <div class="h-screen bg-black flex items-center bg-cover bg-black]">
+    <img src="{{asset("/asset/hero.png")}}" class="object-cover w-screen h-screen" alt="">
+    <div class="absolute mx-16">
       <h1 class="text-white font-white text-4xl font-bold italic leading-none">20 MILLION <br>COMMUNITY</h1>
       <div class="inline-flex">
         <button class="px-6 py-2 my-10 mx-2 bg-transparent border-white text-white rounded-md border-2">LETS WORK WITH US</button>

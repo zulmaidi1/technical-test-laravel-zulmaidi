@@ -9,7 +9,7 @@
               </div>
         </div>
 
-        <div class="grid grid-cols-3 gap-4">
+        <div class="grid md:grid-cols-3 gap-4">
             @foreach ($services as $service)
             <div class="relative bg-red-600 ">
                 <div class="h-64 flex justify-center items-center">

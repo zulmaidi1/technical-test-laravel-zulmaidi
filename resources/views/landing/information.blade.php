@@ -10,7 +10,7 @@
         <p class="mt-16">
             Warm regards
         </p>
-        <p class="font-bold text-2xl">
+        <p class="font-bold text-2xl font-yesteryear">
             United Creative
         </p>
     </div>

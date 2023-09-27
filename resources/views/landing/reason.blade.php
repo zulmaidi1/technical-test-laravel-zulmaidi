@@ -4,18 +4,19 @@
                 <!-- Carousel wrapper -->
                 <div class="relative h-56 overflow-hidden sm:h-64 xl:h-80 2xl:h-96">
                      <!-- Item 1 -->
-                    <div id="carousel-item-1" class="hidden duration-700 ease-in-out">
+                     <div id="carousel-item-1" class="hidden duration-700 ease-in-out bg-white">
                         <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="grid grid-cols-12">
-                                <div class="col-span-5 h-96 flex justify-end items-center bg-cover bg-[url('{{asset("asset/hero.png")}}')]">
-                                    <div class="mr-12">
+                                <div class="sm:col-span-12 md:col-span-5 h-96 flex justify-end items-center bg-cover bg-primary">
+                                    <img src="{{asset("/asset/card.png")}}" class="object-cover w-full h-full" alt="">
+                                    <div class="absolute mr-12 text-right">
                                         <h2 class="text-8xl font-bold text-white">10.000</h2>
                                         <p class="text-right text-2xl font-bold text-white">COMMUNITY LEADER</p>
                                     </div>
                                 </div>
         
-                                <div class="col-span-7 mx-12 h-96 flex items-center">
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lorem ac risus imperdiet ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vulputate metus vitae euismod bibendum. Ut lacinia massa ligula, eget volutpat quam fermentum eu. Vivamus dictum mauris eget nisi accumsan, nec tempor lorem tempus.
+                                <div class="hidden md:flex col-span-7 mx-12 h-96 items-center mr-24">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lorem ac risus imperdiet ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vulputate metus vitae euismod bibendum. Ut lacinia massa ligula, eget volutpat quam fermentum eu. Vivamus dictum mauris eget nisi accumsan, nec tempor lorem tempus. Integer sagittis pulvinar urna, nec tempus ligula semper id. Nam urna ex, viverra eu euismod sed, pharetra ut enim. 
                                     </p>
                                 </div>
                             </div>
@@ -24,14 +25,15 @@
                     <div id="carousel-item-2" class="hidden duration-700 ease-in-out">
                         <div class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2">
                             <div class="grid grid-cols-12">
-                                <div class="col-span-5 h-96 flex justify-end items-center bg-cover bg-[url('{{asset("asset/card.png")}}')]">
-                                    <div class="mr-12 text-right">
+                                <div class="sm:col-span-12 md:col-span-5 h-96 flex justify-end items-center bg-cover bg-primary">
+                                    <img src="{{asset("/asset/card.png")}}" class="object-cover w-full h-full" alt="">
+                                    <div class="absolute mr-12 text-right">
                                         <h2 class="text-8xl font-bold text-white">10.000</h2>
                                         <p class="text-right text-2xl font-bold text-white">COMMUNITY LEADER</p>
                                     </div>
                                 </div>
         
-                                <div class="col-span-7 mx-12 h-96 flex items-center mr-24">
+                                <div class="hidden md:flex col-span-7 mx-12 h-96 items-center mr-24">
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae lorem ac risus imperdiet ornare. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla vulputate metus vitae euismod bibendum. Ut lacinia massa ligula, eget volutpat quam fermentum eu. Vivamus dictum mauris eget nisi accumsan, nec tempor lorem tempus. Integer sagittis pulvinar urna, nec tempus ligula semper id. Nam urna ex, viverra eu euismod sed, pharetra ut enim. 
                                     </p>
                                 </div>

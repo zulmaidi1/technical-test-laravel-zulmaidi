@@ -14,7 +14,8 @@ export default {
         black: '#101010'
       },
       fontFamily: {
-        'hanken-grotesk': ['Hanken Grotesk', 'sans-serif']
+        'hankenGrotesk': ['Hanken Grotesk', 'sans-serif'],
+        'yesteryear' : ['Yesteryear', 'sans-serif']
       },
       fontSize: {
         sm: '14px',
